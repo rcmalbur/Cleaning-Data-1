@@ -79,3 +79,4 @@ dataf <- dcast(dataf, Subject + Activity ~ variable, mean)
 # FINAL STEP
 # Write the dataset into a txt file
 write.table(dataf, "clean_set.txt", row.name=FALSE)
+
