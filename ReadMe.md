@@ -15,11 +15,3 @@ The clean dataset (clean_set.txt) can be read into R through:
 ## What is provided
 
 The document provides the mean for each activity and subject of all the measurements on the mean and standard deviation for each measurement on the original dataset. Mean and standard deviation measurements have been understood as all of those which ended in mean() or std(), as only those are supposed to be the "measurements on the mean and standard deviation" for that particular measurement, as per the "features_info.txt" document that accompany of the original dataset (it can be found on the "data" folder).
-
-- "Subject" column provides the subject.
-
-- "Activity" column provides the activity for which the mean of each mean and std measurements are computed. There are six possible activity tags: "LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS", and "WALKING_UPSTAIRS".
-
-- All other columns provide the mean value for that activity and subject of a particular measurement (see column name to check the name of each measurement).
-
-- More details about what each measurement represents and how it has been computed can be found on the "features_info.txt" file of the original dataset.
